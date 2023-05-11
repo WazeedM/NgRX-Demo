@@ -3,9 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>NgRX</h1>
-    <app-counter></app-counter>
-    <router-outlet></router-outlet>
+    <app-navbar></app-navbar>
+    <div class=container>
+      <router-outlet></router-outlet>
+    </div>
   `,
   styles: []
 })
